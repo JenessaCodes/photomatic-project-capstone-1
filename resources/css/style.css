@@ -130,8 +130,8 @@ header .mobile {
   border-radius: 4px;
   background-color: #9dc20b;
 }
-/*content class name doesnt match*/
-#sign-up-cta .content {
+
+#sign-up-cta .content-center {
   width: 25.625rem;
   margin-top: 2rem;
   font-family: "Roboto", sans-serif;
@@ -181,7 +181,7 @@ header .mobile {
     border: none;
   }
 
-  #sign-up-cta .content {
+  #sign-up-cta .content-center {
     margin-top: 0;
   }
 
@@ -352,8 +352,8 @@ header .mobile {
   font-style: italic;
   color: #4a4a4a;
 }
-/*add . infront of class name*/
-#quotes-section quote-citation {
+
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
@@ -367,7 +367,7 @@ header .mobile {
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;

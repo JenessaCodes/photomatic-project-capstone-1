@@ -134,7 +134,7 @@ header .mobile {
   background-color: #9dc20b;
 }
 
-#sign-up-cta .content-center {
+#sign-up-cta .center {
   width: 25.625rem;
   margin-top: 2rem;
   font-family: "Roboto", sans-serif;
@@ -171,6 +171,7 @@ header .mobile {
 
 @media only screen and (max-width: 760px) {
   #sign-up-section {
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 28rem;
@@ -184,7 +185,7 @@ header .mobile {
     border: none;
   }
 
-  #sign-up-cta .content-center {
+  #sign-up-cta .center {
     margin-top: 0;
   }
 

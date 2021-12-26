@@ -41,6 +41,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  z-index: 1;
 }
 
 header .content {
@@ -49,6 +50,7 @@ header .content {
   padding: 1.875rem;
 }
 
+/* problem because .logo class does not exist*/
 header .logo {
   flex: 1;
 }
@@ -112,6 +114,7 @@ header .mobile {
 
 /* Sign Up Section */
 
+/*I think the justify content is supposed to be center and align items is supposed to be center too*/
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
@@ -125,7 +128,7 @@ header .mobile {
   border-radius: 4px;
   background-color: #9dc20b;
 }
-
+/*content class name doesnt match*/
 #sign-up-cta .content {
   width: 25.625rem;
   margin-top: 2rem;
@@ -307,6 +310,7 @@ header .mobile {
     margin-bottom: 1rem;
   }
 
+  /*Probably not supposed to be normal weight*/
   #filters-section .content h2 {
     padding-bottom: .625rem;
     font-size: 1.125rem;
@@ -322,7 +326,7 @@ header .mobile {
   #filters-section .images-container {
     padding: 0;
   }
-
+/*only mobile doesn't display extra*/
   #filters-section .extra {
     display: none;
   }
@@ -346,7 +350,7 @@ header .mobile {
   font-style: italic;
   color: #4a4a4a;
 }
-
+/*add . infront of class name*/
 #quotes-section quote-citation {
   height: 1.875rem;
 }

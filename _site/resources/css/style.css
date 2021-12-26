@@ -121,6 +121,9 @@ header .mobile {
   align-items: center;
   height: 43.5rem;
   background-image: url("/resources/images/banner-landingpage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #sign-up-cta {
@@ -130,7 +133,7 @@ header .mobile {
   border-radius: 4px;
   background-color: #9dc20b;
 }
-/*content class name doesnt match*/
+
 #sign-up-cta .content-center {
   width: 25.625rem;
   margin-top: 2rem;
@@ -352,7 +355,7 @@ header .mobile {
   font-style: italic;
   color: #4a4a4a;
 }
-/*add . infront of class name*/
+
 #quotes-section .quote-citation {
   height: 1.875rem;
 }

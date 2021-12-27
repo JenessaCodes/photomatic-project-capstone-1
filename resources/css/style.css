@@ -51,7 +51,6 @@ header .content {
   padding: 1.875rem;
 }
 
-/* problem because .logo class does not exist*/
 header .logo {
   flex: 1;
 }
@@ -115,7 +114,6 @@ header .mobile {
 
 /* Sign Up Section */
 
-/*I think the justify content is supposed to be center and align items is supposed to be center too*/
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
